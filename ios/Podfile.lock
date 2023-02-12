@@ -1,4 +1,18 @@
 PODS:
+  - BanubaARCloudSDK (1.26.4)
+  - BanubaAudioBrowserSDK (1.26.4)
+  - BanubaEffectPlayer (1.26.4)
+  - BanubaLicenseServicingSDK (1.26.4)
+  - BanubaMusicEditorSDK (1.26.4)
+  - BanubaOverlayEditorSDK (1.26.4)
+  - BanubaSDK (1.26.4)
+  - BanubaSDKServicing (1.26.4)
+  - BanubaSDKSimple (1.26.4)
+  - BanubaUtilities (1.26.4)
+  - BanubaVideoEditorGallerySDK (1.26.4)
+  - BanubaVideoEditorSDK (1.26.4)
+  - BanubaVideoEditorTrimSDK (1.26.4)
+  - BNBLicenseUtils (1.26.4)
   - boost (1.76.0)
   - CocoaAsyncSocket (7.6.5)
   - DoubleConversion (1.1.6)
@@ -414,11 +428,29 @@ PODS:
     - React-logger (= 0.71.2)
     - React-perflogger (= 0.71.2)
   - SocketRocket (0.6.0)
+  - VEEffectsSDK (1.26.4)
+  - VEExportSDK (1.26.4)
+  - VEPlaybackSDK (1.26.4)
+  - VideoEditor (1.26.4)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
 
 DEPENDENCIES:
+  - BanubaARCloudSDK (= 1.26.4)
+  - BanubaAudioBrowserSDK (= 1.26.4)
+  - BanubaEffectPlayer (= 1.26.4)
+  - BanubaLicenseServicingSDK (= 1.26.4)
+  - BanubaMusicEditorSDK (= 1.26.4)
+  - BanubaOverlayEditorSDK (= 1.26.4)
+  - BanubaSDK (= 1.26.4)
+  - BanubaSDKServicing (= 1.26.4)
+  - BanubaSDKSimple (= 1.26.4)
+  - BanubaUtilities (= 1.26.4)
+  - BanubaVideoEditorGallerySDK (= 1.26.4)
+  - BanubaVideoEditorSDK (= 1.26.4)
+  - BanubaVideoEditorTrimSDK (= 1.26.4)
+  - BNBLicenseUtils (= 1.26.4)
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -477,10 +509,33 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - VEEffectsSDK (= 1.26.4)
+  - VEExportSDK (= 1.26.4)
+  - VEPlaybackSDK (= 1.26.4)
+  - VideoEditor (= 1.26.4)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/Banuba/specs.git:
+    - BanubaARCloudSDK
+    - BanubaAudioBrowserSDK
+    - BanubaEffectPlayer
+    - BanubaLicenseServicingSDK
+    - BanubaMusicEditorSDK
+    - BanubaOverlayEditorSDK
+    - BanubaSDK
+    - BanubaSDKServicing
+    - BanubaSDKSimple
+    - BanubaUtilities
+    - BanubaVideoEditorGallerySDK
+    - BanubaVideoEditorSDK
+    - BanubaVideoEditorTrimSDK
+    - BNBLicenseUtils
+    - VEEffectsSDK
+    - VEExportSDK
+    - VEPlaybackSDK
+    - VideoEditor
+  https://github.com/CocoaPods/Specs.git:
     - CocoaAsyncSocket
     - Flipper
     - Flipper-Boost-iOSX
@@ -568,6 +623,20 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  BanubaARCloudSDK: 31e043322ac9d60ac0e29f3e578daf750bac4661
+  BanubaAudioBrowserSDK: 41c107e05df3d587bc2973c4f5384b991f674f72
+  BanubaEffectPlayer: dded82c0701697b2b080a76eceb47dc81a28e822
+  BanubaLicenseServicingSDK: 6f6b4c6afbd6b1273e226cbd92ba72cb54ebdf1a
+  BanubaMusicEditorSDK: e08a9f2021c0d9ec2a677f8e07a67a66bc6e7fb4
+  BanubaOverlayEditorSDK: 2dc8e99c00c3f986c6ca3dfdade74cdcf6ba6979
+  BanubaSDK: eaef15cca648e7e79b1336779c7f743d65fea724
+  BanubaSDKServicing: 08d253792529822d25e11430139edb5b81f3b34c
+  BanubaSDKSimple: b3453b7fb3d95f2aee28acd8d3b8903d770074a1
+  BanubaUtilities: 1b49e0e75f37d3e6f8372a4907c778872a483555
+  BanubaVideoEditorGallerySDK: ce681970c888db60589ac322424b2a9188eab814
+  BanubaVideoEditorSDK: add12d7b96deaa10d3a4a6879f89ffd754d080b2
+  BanubaVideoEditorTrimSDK: a874abdbf6d4885a173cce9711a883df2cf1f0c6
+  BNBLicenseUtils: 33a6eedbd93a30666dc3a899a59bd2df9149f97f
   boost: 57d2868c099736d80fcd648bf211b4431e51a558
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
@@ -615,9 +684,13 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 4bf9a9086d27f74065fce1dddac274aa95216952
   ReactCommon: f697c0ac52e999aa818e43e2b6f277787c735e2d
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  VEEffectsSDK: db302bf80bef6f11a566d769f6aab06b1cfe0a7a
+  VEExportSDK: d0f09ffbd29c7512a6946017f2f9567efc00da18
+  VEPlaybackSDK: 473d0ca2b0ee104432686afc86c95f4be1f97bfc
+  VideoEditor: 8e30a6641cd49cc7d1af660cd4ab79459846e828
   Yoga: 5b0304b3dbef2b52e078052138e23a19c7dacaef
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: c12cd4a9e1ddca8448bf444d4d720ce0cbb5bcba
+PODFILE CHECKSUM: 020fd1aeafd2bd410605296500ae778587a7a287
 
 COCOAPODS: 1.11.3
