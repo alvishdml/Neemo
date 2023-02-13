@@ -11,16 +11,16 @@
 		03DBC42B267DBA6821D8FE35 /* libPods-Neemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40242A834D84EA67BD000A /* libPods-Neemo.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BE164BB2299A415F00833862 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = BE164BB1299A415F00833862 /* Music */; };
+		BE164BB4299A422200833862 /* AudioBrowserModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE164BB3299A422200833862 /* AudioBrowserModule.swift */; };
+		BE164BB6299A427D00833862 /* VideoEditorModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BE164BB5299A427D00833862 /* VideoEditorModuleBridge.m */; };
+		BE164BB8299A42A300833862 /* CustomViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE164BB7299A42A300833862 /* CustomViewControllerFactory.swift */; };
+		BE164BBA299A42BF00833862 /* VideoEditorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE164BB9299A42BF00833862 /* VideoEditorModule.swift */; };
+		BE164BBC299A452200833862 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE164BBB299A452200833862 /* Localizable.strings */; };
 		BE27FE722997A583001CDF86 /* sample_audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE27FE712997A583001CDF86 /* sample_audio.mp3 */; };
 		BE27FE742997A59E001CDF86 /* luts in Resources */ = {isa = PBXBuildFile; fileRef = BE27FE732997A59E001CDF86 /* luts */; };
 		BE27FE762997A5AE001CDF86 /* bundleEffects in Resources */ = {isa = PBXBuildFile; fileRef = BE27FE752997A5AE001CDF86 /* bundleEffects */; };
-		BE27FE832997A601001CDF86 /* VideoEditorModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FE822997A601001CDF86 /* VideoEditorModule.swift */; };
-		BE27FE852997A784001CDF86 /* CustomViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FE842997A784001CDF86 /* CustomViewControllerFactory.swift */; };
-		BE27FE872997A792001CDF86 /* AudioBrowserModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE27FE862997A792001CDF86 /* AudioBrowserModule.swift */; };
-		BE27FE892997A7A0001CDF86 /* VideoEditorModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BE27FE882997A7A0001CDF86 /* VideoEditorModuleBridge.m */; };
-		BE27FE8B2997A7F1001CDF86 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = BE27FE8A2997A7F1001CDF86 /* Music */; };
 		BE6900A129990330007FAD99 /* sample_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BE6900A02999032F007FAD99 /* sample_video.mp4 */; };
-		BE6900A32999033C007FAD99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE6900A22999033C007FAD99 /* Localizable.strings */; };
 		BE95340C2997962C00A3D183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95340B2997962C00A3D183 /* AppDelegate.swift */; };
 		E305401FF01E05FAD3AE9288 /* libPods-Neemo-NeemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FC5A485A085E0881B2ED2 /* libPods-Neemo-NeemoTests.a */; };
 /* End PBXBuildFile section */
@@ -48,16 +48,16 @@
 		899D66735B3E7C10483DC3C1 /* Pods-Neemo-NeemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neemo-NeemoTests.release.xcconfig"; path = "Target Support Files/Pods-Neemo-NeemoTests/Pods-Neemo-NeemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8B40242A834D84EA67BD000A /* libPods-Neemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Neemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B166A124D200CA2724C8D0E5 /* Pods-Neemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neemo.debug.xcconfig"; path = "Target Support Files/Pods-Neemo/Pods-Neemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE164BB1299A415F00833862 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		BE164BB3299A422200833862 /* AudioBrowserModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioBrowserModule.swift; sourceTree = "<group>"; };
+		BE164BB5299A427D00833862 /* VideoEditorModuleBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEditorModuleBridge.m; sourceTree = "<group>"; };
+		BE164BB7299A42A300833862 /* CustomViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewControllerFactory.swift; sourceTree = "<group>"; };
+		BE164BB9299A42BF00833862 /* VideoEditorModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEditorModule.swift; sourceTree = "<group>"; };
+		BE164BBB299A452200833862 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		BE27FE712997A583001CDF86 /* sample_audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample_audio.mp3; sourceTree = "<group>"; };
 		BE27FE732997A59E001CDF86 /* luts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = luts; sourceTree = "<group>"; };
 		BE27FE752997A5AE001CDF86 /* bundleEffects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundleEffects; sourceTree = "<group>"; };
-		BE27FE822997A601001CDF86 /* VideoEditorModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoEditorModule.swift; path = "../../../ReactProject/ve-sdk-react-native-cli-integration-sample/ios/VideoEditorModule.swift"; sourceTree = "<group>"; };
-		BE27FE842997A784001CDF86 /* CustomViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomViewControllerFactory.swift; path = "../../../ReactProject/ve-sdk-react-native-cli-integration-sample/ios/CustomViewControllerFactory.swift"; sourceTree = "<group>"; };
-		BE27FE862997A792001CDF86 /* AudioBrowserModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioBrowserModule.swift; path = "../../../ReactProject/ve-sdk-react-native-cli-integration-sample/ios/AudioBrowserModule.swift"; sourceTree = "<group>"; };
-		BE27FE882997A7A0001CDF86 /* VideoEditorModuleBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoEditorModuleBridge.m; path = "../../../ReactProject/ve-sdk-react-native-cli-integration-sample/ios/VideoEditorModuleBridge.m"; sourceTree = "<group>"; };
-		BE27FE8A2997A7F1001CDF86 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Music; path = "../../../ReactProject/ve-sdk-react-native-cli-integration-sample/ios/Music"; sourceTree = "<group>"; };
 		BE6900A02999032F007FAD99 /* sample_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_video.mp4; sourceTree = "<group>"; };
-		BE6900A22999033C007FAD99 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "../../ve-sdk-react-native-cli-integration-sample/ios/Localizable.strings"; sourceTree = "<group>"; };
 		BE95340A2997962B00A3D183 /* Neemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Neemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		BE95340B2997962C00A3D183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -111,11 +111,11 @@
 				BE27FE732997A59E001CDF86 /* luts */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				BE95340B2997962C00A3D183 /* AppDelegate.swift */,
-				BE27FE862997A792001CDF86 /* AudioBrowserModule.swift */,
-				BE27FE882997A7A0001CDF86 /* VideoEditorModuleBridge.m */,
-				BE27FE842997A784001CDF86 /* CustomViewControllerFactory.swift */,
-				BE27FE8A2997A7F1001CDF86 /* Music */,
-				BE27FE822997A601001CDF86 /* VideoEditorModule.swift */,
+				BE164BB3299A422200833862 /* AudioBrowserModule.swift */,
+				BE164BB5299A427D00833862 /* VideoEditorModuleBridge.m */,
+				BE164BB7299A42A300833862 /* CustomViewControllerFactory.swift */,
+				BE164BB9299A42BF00833862 /* VideoEditorModule.swift */,
+				BE164BB1299A415F00833862 /* Music */,
 				BE95340A2997962B00A3D183 /* Neemo-Bridging-Header.h */,
 			);
 			name = Neemo;
@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				BE6900A02999032F007FAD99 /* sample_video.mp4 */,
-				BE6900A22999033C007FAD99 /* Localizable.strings */,
+				BE164BBB299A452200833862 /* Localizable.strings */,
 				13B07FAE1A68108700A75B9A /* Neemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* NeemoTests */,
@@ -269,12 +269,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE27FE8B2997A7F1001CDF86 /* Music in Resources */,
+				BE164BB2299A415F00833862 /* Music in Resources */,
 				BE27FE742997A59E001CDF86 /* luts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				BE27FE722997A583001CDF86 /* sample_audio.mp3 in Resources */,
 				BE6900A129990330007FAD99 /* sample_video.mp4 in Resources */,
-				BE6900A32999033C007FAD99 /* Localizable.strings in Resources */,
+				BE164BBC299A452200833862 /* Localizable.strings in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				BE27FE762997A5AE001CDF86 /* bundleEffects in Resources */,
 			);
@@ -445,11 +445,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE27FE832997A601001CDF86 /* VideoEditorModule.swift in Sources */,
 				BE95340C2997962C00A3D183 /* AppDelegate.swift in Sources */,
-				BE27FE852997A784001CDF86 /* CustomViewControllerFactory.swift in Sources */,
-				BE27FE892997A7A0001CDF86 /* VideoEditorModuleBridge.m in Sources */,
-				BE27FE872997A792001CDF86 /* AudioBrowserModule.swift in Sources */,
+				BE164BBA299A42BF00833862 /* VideoEditorModule.swift in Sources */,
+				BE164BB6299A427D00833862 /* VideoEditorModuleBridge.m in Sources */,
+				BE164BB4299A422200833862 /* AudioBrowserModule.swift in Sources */,
+				BE164BB8299A42A300833862 /* CustomViewControllerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
